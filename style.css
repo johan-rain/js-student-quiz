@@ -1,0 +1,83 @@
+* {
+  background-color: rgb(100, 100, 100);
+}
+header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#guesses {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+
+}
+
+#classmate {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 4px solid rgb(0, 0, 0);
+}
+
+.btn, #reset {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #a31f1fe1;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.btn:hover, #reset:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  margin: 15px auto;
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  top: 100vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
