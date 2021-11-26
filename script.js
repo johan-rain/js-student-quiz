@@ -1,6 +1,3 @@
-/**
- * 
- */
 
 // Array of all the students
 const students = [
